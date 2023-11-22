@@ -62,7 +62,7 @@ public:
   bool enable_aig_core_simplify = false;
   bool enable_use_intervals = true;
   bool enable_pure_literals = true;
-  bool enable_always_true = false;
+  bool enable_always_true = true;
   bool enable_split_extracts = true;
   bool enable_sharing_aware_rewriting = true;
   bool enable_merge_same = false;
