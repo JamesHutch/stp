@@ -57,7 +57,7 @@ public:
   bool propagate_equalities = true; // Remove equalities.
   bool bitConstantProp_flag = true; // Constant bit propagation enabled.
   bool enable_unconstrained = true;
-  bool enable_flatten = false;
+  bool enable_flatten = true;
   bool enable_ite_context = false;
   bool enable_aig_core_simplify = false;
   bool enable_use_intervals = true;
