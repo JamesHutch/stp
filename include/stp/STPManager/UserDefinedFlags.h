@@ -68,7 +68,7 @@ public:
   bool enable_merge_same = false;
 
   int64_t AIG_rewrites_iterations = 0; // Number of iterations of AIG rewrites.
-  int64_t bitblast_simplification = 0;
+  int64_t bitblast_simplification = -1;
   int64_t size_reducing_fixed_point = 0;
   
 
