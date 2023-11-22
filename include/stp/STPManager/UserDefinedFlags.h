@@ -48,7 +48,7 @@ public:
   bool cinterface_exprdelete_on_flag = true;
 
   /* Output details of how the solving went*/
-  bool stats_flag = false;
+  bool stats_flag = true;
   bool quick_statistics_flag = false;
 
   /* Control simplification */
